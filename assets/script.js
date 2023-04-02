@@ -26,3 +26,14 @@ listTopics();
 
 console.log('Which topic should we study first?');
 selectTopic();
+
+function toggleText(el) {
+  var text = el.closest('div').querySelector(".demo");
+  if (text.style.display === "none") {
+    text.style.display = "block";
+  } else {
+    text.style.display = "none";
+  }
+}
+
+

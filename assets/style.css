@@ -5,72 +5,108 @@
 
 header {
     width: 100%;
-    height: 200px;
+    height: 20%;
     background-image: linear-gradient(#54bbcf, #f8f0e6);
-    color: rgb(11, 60, 74);
-    font-family: century, sans-serif;
-    font-size: 19px
+
 }
 
 footer {
-    width: 100%;
-    height: 50px;
+
     background-image: linear-gradient(#f8f0e6, #54bbcf);
-    color: rgb(11, 60, 74);
-    font-family: century, sans-serif;
-    font-size: 19px
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
 }
 
-h1,
-h2 {
+h1 {
+    width: 100%;
     text-align: center;
+    margin-left: 50%;
     font-size: 30px;
     color: rgb(11, 60, 74);
     font-family: century, sans-serif;
     padding-top: 20px;
+    transform: translateX(-50%);
+    padding-left: 0;
+    
+}
+
+h2 {
+  width: 90%;
+  text-align: center;
+  margin-left: 50%;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: rgb(11, 60, 74);
+  font-family: century, sans-serif;
+  padding-top: 20px;
+  transform: translateX(-50%);
+  padding-left: 0;
+  
+}
+
+a {
+  font-size: 150%;
+  margin-right: flex;
+  margin-bottom: 10px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  font-weight: lighter;
+  transition: all 0.3s;
+  box-shadow: silver 3px 3px 3px 0;
+  width: 90%;
+  color: #b50000;
+  border: 1px solid #b50000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: white;
+  background-color: #975c7ab2;
+}
+
+div {
+  width: 90%;
+  text-align: center;
+  transform: translateX(-50%);
+  margin-left: 50%;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  padding-left: 0;
+
 }
 
 img {
-    display: block;
     height: 100px;
     width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-}
-
-ul {
-    padding-left: 40px;
-    padding-bottom: 20px;
+    padding-left: 45%;
     padding-top: 20px;
-    font-size: 20px;
+    
+    
 }
 
 p {
-    text-align: center;
-    font-size: 30px;
-    
+    text-align:left;
+    font-size:20px;
     font-family: century, sans-serif;
-    font-size: 35px
-  }
-
-  .card {
-    width: 80%;
-    margin: 40px auto;
-    border: 5px solid rgb(131, 113, 113);
-    box-shadow: 5px 10px #3f777c;
+    width: 90%;
+    color: white;
+    background-color: #975c7ab2;
+    border: 1px solid #faf8f8;
     border-radius: 10px;
-    background-color: rgb(206, 205, 204);
-    
+    box-shadow: silver 3px 3px 3px 0;
+    font-weight: lighter;
+    padding: 20px 20px
+        
   }
-
-  li {
-    color: rgb(11, 60, 74);
-    font-family: century, sans-serif;
-    text-align:left
-  }
-
 
   html {
     background-color:rgb(248, 240, 230)
   }
+
+
