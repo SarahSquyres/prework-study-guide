@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,74 +8,82 @@
     <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
+
   <body>
     <header id="top">
-      <h1>Prework Study Guide</h1>
+      <h1>
+        ✨ Prework Study Guide ✨
+      </h1>
 
       <img 
       src="./assets/bowtie-cat.png" 
       alt="Profile image of cat wearing a bow tie." 
       />
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
+
+      <h2>
+        (Open the Console to See What's Happening)
+      </h2>
+
     </header>
+
     <main>
-      <section class="card" id="html-section">
-        <h2>HTML</h2>
-        <ul>
-          <li>Enter your HTML notes here</li>
-          <li>The head element contains information about the webpage</li>
-          <li>The body element represents the visible content shown to the user.</li>
-        </ul>
-      </section>
-   
-      <section class="card" id="css-section">
-        <h2>CSS</h2>
-        <ul>
-          <li>inline CSS: apply to specific HTML tag to style a particular page element only</li>
-          <li>internal style sheet: contains CSS rules for the webpage elements of the HTML file</li>
-          <li>external CSS style sheet: keep all CSS rules in a separate file, link file using link element placed in HTML</li>
-          <li>navigate to assets folder and create new file by using touch command in git bash; name file style.css</li>
-        </ul>
-      </section>
-   
-      <section class="card" id="git-section">
-        <h2>Git</h2>
-        <ul>
-          <li>pwd: print working directory</li>
-          <li>cd: change directory</li>
-          <li>git status: displays state of working directory and staging area</li>
-          <li>git checkout main: swich to main branch</li>
-          <li>git pull origin main: pull remote main branch into local main branch</li>
-          <li>git checkout -b branch-name: creates a new branch</li>
-          <li>touch: creates new file</li>
-          <li>code . : open working directory in VS Code</li>
-          <li>git add -A: add updates to git repository</li>
-          <li>git commit -m "your message": add commit message</li>
-          <li>git pull origin main: pull base branch main to working branch</li>
-          <li>git push origin working branch</li>
-          <li>navigate to repository in GitHub</li>
-          <li>change to working branch</li>
-          <li>refresh to verify changes have been pushed</li>
-          <li>navigate to Pull Requests tab and open new pull request</li>
-          <li>select main as base branch and working branch as comparison</li>
-          <li>click Create Pull Request</li>
-          <li>update form appropriately and select Merge Pull Request</li>
-          <li>close issue</li>
-        </ul>
-      </section>
-   
-      <section class="card" id="javascript-section">
-        <h2>JavaScript</h2>
-        <ul>
-          <li>A variable is a named container that allows us to store data in our code.</li>
-          <li>Control flow is the order in which a computer executes code in a script.</li>
-        </ul>
-      </section>
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <a href="javascript:void();" onclick="toggleText(this)" class="btn btn-sm animated-button thar-two">HTML</a>
+          <p class="demo" style="display: none">Enter your HTML notes here<br>
+            The head element contains information about the webpage<br>
+            The body element represents the visible content shown to the user.</p>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <a href="javascript:void();" onclick="toggleText(this)" class="btn btn-sm animated-button thar-two">CSS</a>
+          <p class="demo" style="display: none">inline CSS: apply to specific HTML tag to style a particular page element only<br>
+            internal style sheet: contains CSS rules for the webpage elements of the HTML file<br>
+            external CSS style sheet: keep all CSS rules in a separate file, link file using link element placed in HTML<br>
+            navigate to assets folder and create new file by using touch command in git bash; name file style.css<br>
+            How to style buttons with CSS: https://stackoverflow.com/questions/6384304/styling-buttons-with-css<br>
+          </p>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <a href="javascript:void();" onclick="toggleText(this)" class="btn btn-sm animated-button thar-two">Git</a>
+          <p class="demo" style="display: none">pwd: print working directory<br>
+            cd: change directory<br>
+            git status: displays state of working directory and staging area<br>
+            git checkout main: swich to main branch<br>
+            git pull origin main: pull remote main branch into local main branch<br>
+            git checkout -b branch-name: creates a new branch<br>
+            touch: creates new file<br>
+            code . : open working directory in VS Code<br>
+            git add -A: add updates to git repository<br>
+            git commit -m "your message": add commit message<br>
+            git pull origin main: pull base branch main to working branch<br>
+            git push origin working branch<br>
+            navigate to repository in GitHub<br>
+            change to working branch<br>
+            refresh to verify changes have been pushed<br>
+            navigate to Pull Requests tab and open new pull request<br>
+            select main as base branch and working branch as comparison<br>
+            click Create Pull Request<br>
+            update form appropriately and select Merge Pull Request<br>
+            close issue<br>
+          </p>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6">
+          <a href="javascript:void();" onclick="toggleText(this)" class="btn btn-sm animated-button thar-two">JavaScript</a>
+          <p class="demo" style="display: none">A variable is a named container that allows us to store data in our code.<br>
+            Control flow is the order in which a computer executes code in a script.<br>
+            dropdown button question stackoverflow: https://stackoverflow.com/questions/67367795/displaying-text-for-multiple-buttons-once-clicked<br>
+          </p>
+        </div>
+      </div>
+
+      
       
     </main>
 
     <footer>
-      <p>I can code!</p>
+
+      <h2>I can code!</h2>
+      
     </footer>
     <script src="./assets/script.js"></script>
   </body>
