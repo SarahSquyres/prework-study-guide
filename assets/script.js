@@ -35,5 +35,3 @@ function toggleText(el) {
     text.style.display = "none";
   }
 }
-
-
